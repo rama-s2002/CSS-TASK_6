@@ -1,0 +1,21 @@
+table
+{
+    border: 1px solid whitesmoke;
+    width: 100%;
+    font-family: 'Calibri'; 
+}
+th{
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+table,tr{
+    border: 1px solid whitesmoke; 
+    border-collapse: collapse;
+    
+}
+
+tr:nth-child(even)
+{
+     background-color: lightgray;
+}
